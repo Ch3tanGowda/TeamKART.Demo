@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>TeamKART</title>
+<link rel="icon" href="logo.png" type="image/icon type">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./Attributes/styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="jquery-2.1.4.js"></script>
+<script src="./Attributes/script.js"></script>
+<style>
+body {font-family: "ft";}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navigation -->
+<div class="tk-top">
+  <div class="tk-bar tk-black tk-card">
+    <a class="tk-bar-item tk-button tk-padding-large tk-hide-medium tk-hide-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><img src="./Resources/iconhb.png" width="10px"></a>
+    <a href="#" class="tk-bar-item tk-button tk-padding-large">HOME</a>
+    <a href="#team" class="tk-bar-item tk-button tk-padding-large tk-hide-small">TEAM</a>
+    <a href="#cars" class="tk-bar-item tk-button tk-padding-large tk-hide-small">CARS</a>
+    <a href="#contact" class="tk-bar-item tk-button tk-padding-large tk-hide-small">CONTACT</a>
+    <div class="tk-dropdown-hover tk-hide-small">
+      <button class="tk-padding-large tk-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="tk-dropdown-content tk-bar-block tk-card-4">
+        <a href="#" class="tk-bar-item tk-button">BLOG</a>
+        <a href="#" class="tk-bar-item tk-button">GALLERY</a>
+        <a href="#" class="tk-bar-item tk-button">SPONSORS</a>
+      </div>
+    </div>
+    <a href="#" class=" tk-right"><img src="./Resources/logo.png" width="75px" style="margin-right: 20px;"></a>
+  </div>
+</div>
+
+<!-- Navigation on small screens -->
+<div id="navDemo" class="tk-bar-block tk-black tk-hide tk-hide-large tk-hide-medium tk-top zi10" style="margin-top:46px">
+  <a href="#team" class="tk-bar-item tk-button tk-padding-large" onclick="myFunction()">TEAM</a>
+  <a href="#cars" class="tk-bar-item tk-button tk-padding-large" onclick="myFunction()">CARS</a>
+  <a href="#contact" class="tk-bar-item tk-button tk-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="tk-bar-item tk-button tk-padding-large" onclick="myFunction()">BLOG</a>
+  <a href="#" class="tk-bar-item tk-button tk-padding-large" onclick="myFunction()">GALLERY</a>
+  <a href="#" class="tk-bar-item tk-button tk-padding-large" onclick="myFunction()">SPONORS</a>
+</div>
+
+<!-- Page content -->
+<div class="tk-content" style="max-width:2000px;margin-top:43px">
+  
+    <div id="myCarousel" class="carousel slide zi1" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="./Resources/c0.jpg" alt="Los Angeles" style="width:100%;">
+        </div>
+  
+        <div class="item">
+          <img src="./Resources/c1.jpg" alt="Chicago" style="width:100%;">
+        </div>
+      
+        <div class="item">
+          <img src="./Resources/c2.jpg" alt="New york" style="width:100%;">
+        </div>
+     
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div> 
+
+
+  <!-- The team Section -->
+  <div class="tk-container tk-content tk-center tk-padding-64" style="max-width:800px" id="team">
+    <h2 class="tk-wide tk-padding-32"><span style= "border-bottom: 6px solid  #CC3838 ;">THE TEAM</span></h2>
+    <p class="tk-opacity"><i>Pedal to the metal</i></p>
+    <p class="tk-justify hideme">Team KART is the official Formula Student team of IIT Kharagpur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="tk-row tk-padding-32 hideme">
+      <div class="tk-third">
+        <p>Leader</p>
+        <img src="./Resources/images.png" class="tk-round tk-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="tk-third">
+        <p>Deputy Leader</p>
+        <img src="./Resources/images.png" class="tk-round tk-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="tk-third">
+        <p>Finance head</p>
+        <img src="./Resources/images.png" class="tk-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The cars Section -->
+  <div class="tk-black" id="cars">
+      <div class="tk-container tk-content tk-padding-64" style="max-width:1000px">
+      <h2 class="tk-wide tk-center tk-padding-32"><span style= "border-bottom: 6px solid  #CC3838 ;">CARS</h2></span></h2>
+      <p class="tk-opacity tk-center"><i>Our Latest Build</i></p><br>
+      <div class="tk-container tk-content hideme" style="max-width:800px;">
+        <div class="tk-margin-bottom">
+          <div class="pzoom">
+          <img src="./Resources/1K5.jpg" alt="New York" style="width:100% ; margin-top: -16px ; " class="tk-hover-opacity">
+          </div>
+          <div class="tk-container tk-white">
+            <p><b>K-5</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="tk-button tk-black tk-margin-bottom" onclick="document.getElementById('dataModal').style.display='block'">Details</button>
+          </div>
+        </div>
+      </div>
+      <p class="tk-opacity  tk-center" style= "padding-top: 50px"><i>List of cars built till date</i></p><br>
+      <div class="tk-row-padding hideme" style="margin:0 -16px">
+        <div class="tk-third tk-margin-bottom">
+          <div class="pzoom">
+          <img src="./Resources/1K4.jpg" alt="New York" style="width:100%" class="tk-hover-opacity">
+          </div>
+          <div class="tk-container tk-white">
+            <p><b>K-4</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="tk-button tk-black tk-margin-bottom" onclick="document.getElementById('dataModal').style.display='block'">Details</button>
+          </div>
+        </div>
+        <div class="tk-third tk-margin-bottom">
+          <div class="pzoom">
+          <img src="./Resources/1K3.jpg" alt="Paris" style="width:100%" class="tk-hover-opacity">
+          </div>
+          <div class="tk-container tk-white">
+            <p><b>K-3</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="tk-button tk-black tk-margin-bottom" onclick="document.getElementById('dataModal').style.display='block'">Details</button>
+          </div>
+        </div>
+        <div class="tk-third tk-margin-bottom">
+          <div class="pzoom">
+          <img src="./Resources/1K2.2.jpg" alt="San Francisco" style="width:100%" class="tk-hover-opacity">
+          </div>
+          <div class="tk-container tk-white">
+            <p><b>K-2.2</b></p>            
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="tk-button tk-black tk-margin-bottom" onclick="document.getElementById('dataModal').style.display='block'">Details</button>
+          </div>
+        </div>
+        <div class="tk-third tk-margin-bottom">
+          <div class="pzoom">
+          <img src="./Resources/1K2.jpg" alt="San Francisco" style="width:100%" class="tk-hover-opacity">
+          </div>
+          <div class="tk-container tk-white">
+            <p><b>K-2</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="tk-button tk-black tk-margin-bottom" onclick="document.getElementById('dataModal').style.display='block'">Details</button>
+          </div>
+        </div>
+        <div class="tk-third tk-margin-bottom">
+          <div class="pzoom">
+          <img src="./Resources/1K1.jpg" alt="San Francisco" style="width:100%" class="tk-hover-opacity">
+          </div>
+          <div class="tk-container tk-white">
+            <p><b>K-1</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="tk-button tk-black tk-margin-bottom" onclick="document.getElementById('dataModal').style.display='block'">Details</button>
+          </div>
+        </div>
+        <div class="tk-third tk-margin-bottom">
+          <div class="pzoom">
+          <img src="./Resources/1Kx1.jpg" alt="San Francisco" style="width:100%" class="tk-hover-opacity">
+          </div>
+          <div class="tk-container tk-white">
+            <p><b>KX-1</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <button class="tk-button tk-black tk-margin-bottom" onclick="document.getElementById('dataModal').style.display='block'">Details</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- data Modal -->
+  <div id="dataModal" class="tk-modal">
+    <div class="tk-modal-content tk-animate-top ">
+      <header class="tk-container tk-red tk-center tk-padding-32"> 
+        <span onclick="document.getElementById('dataModal').style.display='none'" 
+       class="tk-button tk-red tk-xlarge tk-display-topright">×</span>
+        <h2 class="tk-wide"><i class="fa fa-suitcase tk-margin-right"></i>Details of this car</h2>
+      </header>
+      <div class="tk-container">
+        <p><label><i class="fa fa-shopping-cart"></i>  <p>Participated in Formula Bharat 2020</p>
+          <strong>Spec Sheet:</strong><br>
+          General<ul>
+          <li>Overall Length: 2690mm
+          </li><li>Curb weight: 242kgf
+          </li><li>Tyre Specifications: Avon A92 20X7.2-13
+          </li><li>Wheel Rim Diameter: 13"</li></ul>
+          Chassis<ul>
+          <li>Material: Tubular Seamless Carbon Steel
+          </li><li>Frame Weight: 38kgf
+          </li><li>Front Track: 120.0 cm
+          </li><li>Rear Track: 120.0 cm</li></ul>
+          Engine<ul>
+          <li>Engine Displacement: 373.2cc
+          </li><li>Engine Choice: KTM 390 DUKE,Single cylinder
+          </li><li>Engine Intake: Plenum made by rapid prot
+          </li><li>Maximum Torque: 33Nm @ 5500rpm
+          </li><li>Maximum Bhp : 33BHP @ 7000rpm
+          </li><li>Fuel: RON 95</li></ul>
+          Steering &amp; Suspension<ul>
+          <li>Suspension Type: SLA Double Wishbone
+          </li><li>Wheelbase: 1560m
+          </li><li>Steering: Rack &amp; Pinion type</li></ul>
+          Brakes<ul>
+          <li>Brake Type: Disc Brake
+          </li><li>Brake Details: Multi-Piston with brake biasing
+          </li><li>Caliper: Fixed Caliper Type</li></ul>
+          Transmission<ul>
+          <li>Clutch type Limited Slip Differential (Drexler).
+          </li><li>Chain and sprocket based final drive system designed</li></label></p>
+        <button class="tk-button tk-red tk-section" onclick="document.getElementById('dataModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+      </div>
+    </div>
+  </div> 
+
+  <!-- The Contact Section -->
+  <div class="tk-container tk-content tk-padding-64" style="max-width:800px" id="contact">
+    <h2 class="tk-wide tk-center"><span style= "border-bottom: 6px solid  #CC3838 ;">CONTACT</span></h2>
+    <p class="tk-opacity tk-center"><i>Have a query? Just Ask!</i></p>
+    <div class="tk-row tk-padding-32 hideme">
+      <div class="tk-col m6 tk-large tk-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Kharagpur, India<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +91 9876543210<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: id@gmail.com<br>
+      </div>
+      <div class="tk-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="tk-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="tk-half">
+              <input class="tk-input tk-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="tk-half">
+              <input class="tk-input tk-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="tk-input tk-border" type="text" placeholder="Message" required name="Message">
+          <button class="tk-button tk-black tk-section tk-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+
+</footer>
+
+<script>
+
+
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("tk-show") == -1) {
+    x.className += " tk-show";
+  } else { 
+    x.className = x.className.replace(" tk-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('dataModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var slideIndex = 1;
+  showDivs(slideIndex);
+  
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+ 
+$(window).on("load",function(){
+$(".loader-wrapper").fadeOut("slow");
+      });
+   // test
+     
+const header = document.querySelector("header");
+const sectionOne = document.querySelector(".home-intro");
+
+const faders = document.querySelectorAll(".fade-in");
+const sliders = document.querySelectorAll(".slide-in");
+
+const sectionOneOptions = {
+  rootMargin: "-200px 0px 0px 0px"
+};
+
+const sectionOneObserver = new IntersectionObserver(function(
+  entries,
+  sectionOneObserver
+) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) {
+      header.classList.add("nav-scrolled");
+    } else {
+      header.classList.remove("nav-scrolled");
+    }
+  });
+},
+sectionOneOptions);
+
+sectionOneObserver.observe(sectionOne);
+
+const appearOptions = {
+  threshold: 0,
+  rootMargin: "0px 0px -250px 0px"
+};
+
+const appearOnScroll = new IntersectionObserver(function(
+  entries,
+  appearOnScroll
+) {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add("appear");
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+},
+appearOptions);
+
+faders.forEach(fader => {
+  appearOnScroll.observe(fader);
+});
+
+sliders.forEach(slider => {
+  appearOnScroll.observe(slider);
+});
+
+const callback = function(entries) {
+  entries.forEach(entry => {
+    entry.target.classList.toggle("is-visible");
+  });
+};
+
+const observer = new IntersectionObserver(callback);
+
+const targets = document.querySelectorAll(".show-on-scroll");
+targets.forEach(function(target) {
+  observer.observe(target);
+});
+
+</script>
+
+
+</body>
+</html>
